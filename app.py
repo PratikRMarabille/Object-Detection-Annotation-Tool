@@ -6,7 +6,10 @@ import streamlit as st
 import os
 from streamlit_img_label import st_img_label
 from streamlit_img_label.manage import ImageManager, ImageDirManager
-
+import xml.etree.ElementTree as ET
+import glob
+import os
+import json
 
 # External packages
 import streamlit as st
@@ -257,15 +260,7 @@ if __name__ == "__main__":
     custom_labels = ["Holothurian", "Echinus", "Scallop","Starfish","Crab","Fish","JellyFish","Shrimp","Small Fish","Other Bio","Non Plastic","Plastic","ROV","Timestamp","Artifacts","Divers"]
     run("img_dir", custom_labels)
 
-
-
-
-
-import xml.etree.ElementTree as ET
-import glob
-import os
-import json
-
+#convert pascal voc to yolo format
 
 def xml_to_yolo_bbox(bbox, w, h):
     # xmin, ymin, xmax, ymax
