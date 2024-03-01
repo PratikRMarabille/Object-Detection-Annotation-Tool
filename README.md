@@ -12,7 +12,6 @@ Object Detection and Annotation Tool is designed to identify objects within an i
     pip install -r requirements
 ```
 ## Usage
-Markup:
 Execute the application using the command: ```streamlit run app.py``` 
 * A new browser window will open, displaying the app.
 * The main page showcases an initial image alongside its corresponding object-detected version. 
