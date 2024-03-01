@@ -3,6 +3,7 @@ Object Detection and Annotation Tool is designed to identify objects within an i
 
  ## Installation
  Clone the repository: git clone "https://github.com/PratikRMarabille/Object-Detection-Annotation-Tool.git"
+ br
  Change to the repository directory: ```pip install ultralytics ```
  Create a virtual environment to ```python -m venv env_name```
 
