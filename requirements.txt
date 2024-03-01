@@ -85,3 +85,17 @@ urllib3==2.0.4
 validators==0.22.0
 watchdog==3.0.0
 zipp==3.16.2
+streamlit
+xml.etree.ElementTree
+glob
+json
+settings
+helper
+streamlit.components.v1
+streamlit_img_label.manage
+streamlit_img_label
+ultralytics
+cv2
+pytube
+pathlib
+sys
