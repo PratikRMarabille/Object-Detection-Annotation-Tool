@@ -2,8 +2,13 @@
 Object Detection and Annotation Tool is designed to identify objects within an image. It not only detects existing objects but also provides a user-friendly interface to annotate any undetected objects. The tool allows users to save annotated images in both YOLO and PASCAL VOC formats.
 
  ## Installation
+<<<<<<< HEAD
  Clone the repository: git clone "https://github.com/PratikRMarabille/Object-Detection-Annotation-Tool.git"
  Change to the repository directory: ```pip install ultralytics ```
+=======
+ Clone the repository: git clone "https://github.com/PratikRMarabille/Object-Detection-Annotation-Tool.git" <br/>
+ Change to the repository directory: ```pip install ultralytics ``` <br/>
+>>>>>>> 439ce4c655041987fc6be3fe18840c59567beb71
  Create a virtual environment to ```python -m venv env_name```
 
  ## Requirements
