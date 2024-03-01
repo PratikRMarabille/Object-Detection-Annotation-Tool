@@ -104,6 +104,7 @@ if source_radio == settings.IMAGE:
                     # st.write(ex)
                     st.write("No image is uploaded yet!")
 
+
 # elif source_radio == settings.VIDEO:
 #     helper.play_stored_video(confidence, model)
 
@@ -118,6 +119,8 @@ if source_radio == settings.IMAGE:
 
 else:
     st.error("Please select a valid source type!")
+
+st.sidebar.header("Detection Tool")
 
 st.markdown("<h1>Object Annotation Tool</h1>", unsafe_allow_html=True)
 st.markdown("<div class='container'>", unsafe_allow_html=True)
