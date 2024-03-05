@@ -1,1 +1,1 @@
-["Fish", "Artifacts", "ROV", "Divers", "Non Plastic", "Plastic"]
+["Divers", "Plastic", "Fish", "Artifacts", "ROV", "Non Plastic"]
