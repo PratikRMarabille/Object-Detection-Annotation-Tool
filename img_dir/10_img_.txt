@@ -1,2 +1,3 @@
-Divers 208 191 175 276
-Plastic 438 382 338 314
+Divers 208 191 176 277
+Plastic 438 382 339 315
+Non Plastic 769 50 385 556
